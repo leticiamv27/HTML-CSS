@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: plum;
+            text-decoration: none; /*tira o sublinhado do link*/
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: purple;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: aquamarine;
+        }
+
+        a:active {
+            color: yellowgreen;
+        }
+
+        .especial::after{
+            content: ' ⇠';
+            text-decoration: none;
+            font-weight: normal;
+            color: plum;
+        }
+
+        .especial::before{
+            content: '⇢ ';
+            color: plum;
+        }
+
+        .especial{
+            background-color: rgb(245, 245, 153);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/leticiamv27?tab=repositories" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/html5-css3-modulo-2-vip/aulas/modulo-2/modulos/capitulo-15-aula-04-css-pseudo-element/" class="especial" target="_blank">Link canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do Curso em Video</a></li>
+    </ul>
+</body>
+</html>
