@@ -62,7 +62,7 @@ header > p{
     padding-left: 10px;/*ao diminuir a pág, fica uma folga ao lado das palavras*/
     padding-right: 10px;
     margin: auto;
-    margin-bottom: 20px; /*colocado para que em telas menores haja espaço entre o título e o menu*/
+    padding-bottom: 50px; /*colocado para que em telas menores haja espaço entre o título e o menu*/
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.437);
 }
 
