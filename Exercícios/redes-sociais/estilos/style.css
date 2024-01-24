@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;    
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+body {
+    background: url(../imagens/background3.jpg);
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../imagens/celular1.png') no-repeat;
+    height: 700px;
+    width: 700px;
+}
+
+iframe#tela {
+    position: relative;
+    top: 128px;
+    left: 238px;
+    width: 275px;
+    height: 480px;
+
+}
+    
